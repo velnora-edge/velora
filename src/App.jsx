@@ -18,67 +18,44 @@ import Contact from "./Pages/Contact";
 
 function App() {
   return (
-<BrowserRouter basename="/velora">
+    <BrowserRouter basename="/velora">
       <div className="min-h-screen flex flex-col">
-
         <Navbar />
 
         <main className="flex-grow">
           <Routes>
-
+            {/* Home */}
             <Route path="/" element={<Home />} />
 
+            {/* Main Pages */}
             <Route path="/about" element={<About />} />
-
             <Route path="/products" element={<Products />} />
 
+            {/* Product Details */}
             <Route
               path="/products/:id"
               element={<ProductDetails />}
             />
 
+            {/* Shopping */}
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/wishlist" element={<Wishlist />} />
 
-            <Route
-              path="/checkout"
-              element={<Checkout />}
-            />
+            {/* Authentication */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
 
-            <Route
-              path="/wishlist"
-              element={<Wishlist />}
-            />
+            {/* User */}
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/orders" element={<Orders />} />
 
-            <Route
-              path="/login"
-              element={<Login />}
-            />
-
-            <Route
-              path="/register"
-              element={<Register />}
-            />
-
-            <Route
-              path="/profile"
-              element={<Profile />}
-            />
-
-            <Route
-              path="/orders"
-              element={<Orders />}
-            />
-
-            <Route
-              path="/contact"
-              element={<Contact />}
-            />
-
+            {/* Contact */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 
         <Footer />
-
       </div>
     </BrowserRouter>
   );
