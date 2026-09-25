@@ -13,7 +13,7 @@ import ProductCard from "./ProductCard";
     price: 139,
     oldPrice: 179,
     rating: 4.9,
-    image: "/images/velvet.jpg",
+    image: "./images/velvet.jpg",
     isNew: true,
   },
   {
@@ -23,7 +23,7 @@ import ProductCard from "./ProductCard";
     price: 119,
     oldPrice: 149,
     rating: 4.8,
-    image: "/images/blazer.jpg",
+    image: "./images/blazer.jpg",
     isNew: true,
   },
   {
@@ -33,7 +33,7 @@ import ProductCard from "./ProductCard";
     price: 95,
     oldPrice: 125,
     rating: 4.9,
-    image: "/images/bracelete.jpg",
+    image: "./images/bracelete.jpg",
     isNew: true,
   },
   {
@@ -43,7 +43,7 @@ import ProductCard from "./ProductCard";
     price: 159,
     oldPrice: 199,
     rating: 4.8,
-    image: "/images/crossbag.jpg",
+    image: "./images/crossbag.jpg",
     isNew: true,
   },
 ];

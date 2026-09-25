@@ -1,4 +1,4 @@
-
+import { imagePath } from "../utils/imagePath";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles, Truck } from "lucide-react";
@@ -7,8 +7,8 @@ const SERIF = {
   fontFamily: "'Fraunces', Georgia, serif",
 };
 
-const Hero = ({ image = "/images/homeImage.jfif" }) => {
-  const [show, setShow] = useState(false);
+const Hero = ({ image = imagePath("/images/homeImage.jfif") }) => {
+    const [show, setShow] = useState(false);
   const [imgFailed, setImgFailed] = useState(false);
 
   useEffect(() => {

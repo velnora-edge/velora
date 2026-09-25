@@ -10,7 +10,7 @@ const products = [
     price: "$129",
     oldPrice: "$159",
     image:
-      "/images/silk.jpg",
+      "./images/silk.jpg",
     badge: "New",
   },
   {
@@ -20,7 +20,7 @@ const products = [
     price: "$79",
     oldPrice: "$99",
     image:
-      "/images/linen.jpg",
+      "./images/linen.jpg",
     badge: "Popular",
   },
   {
@@ -30,7 +30,7 @@ const products = [
     price: "$89",
     oldPrice: "$120",
     image:
-      "/images/gold.jpg",
+      "./images/gold.jpg",
     badge: "Trending",
   },
   {
@@ -40,7 +40,7 @@ const products = [
     price: "$149",
     oldPrice: "$189",
     image:
-      "/images/bag.jpg",
+      "./images/bag.jpg",
     badge: "Best Seller",
   },
   {
@@ -50,7 +50,7 @@ const products = [
     price: "$95",
     oldPrice: "$125",
     image:
-      "/images/heel.jpg",
+      "./images/heel.jpg",
     badge: "New",
   },
   {
@@ -60,7 +60,7 @@ const products = [
     price: "$75",
     oldPrice: "$95",
     image:
-      "/images/perfume.jpg",
+      "./images/perfume.jpg",
     badge: "Popular",
   },
   {
@@ -70,7 +70,7 @@ const products = [
     price: "$179",
     oldPrice: "$220",
     image:
-      "/images/watch.jpg",
+      "./images/watch.jpg",
     badge: "Luxury",
   },
   {
@@ -80,7 +80,7 @@ const products = [
     price: "$85",
     oldPrice: "$110",
     image:
-      "/images/shirt.jpg",
+      "./images/shirt.jpg",
     badge: "New",
   },
 ];

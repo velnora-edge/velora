@@ -16,7 +16,7 @@ const products = [
   category: "Women",
   price: 129,
   oldPrice: 159,
-  image: "/images/silk.jpg",
+  image: "./images/silk.jpg",
 },
 
 {
@@ -25,7 +25,7 @@ const products = [
   category: "Men",
   price: 79,
   oldPrice: 99,
-  image: "/images/linen.jpg",
+  image: "./images/linen.jpg",
 },
 
 {
@@ -34,7 +34,7 @@ const products = [
   category: "Jewelry",
   price: 89,
   oldPrice: 120,
-  image: "/images/gold.jpg",
+  image: "./images/gold.jpg",
 },
 
 {
@@ -43,7 +43,7 @@ const products = [
   category: "Accessories",
   price: 149,
   oldPrice: 189,
-  image: "/images/bag.jpg",
+  image: "./images/bag.jpg",
 },
  {
   id: 5,
@@ -51,7 +51,7 @@ const products = [
   category: "Shoes",
   price: 95,
   oldPrice: 125,
-  image: "/images/heel.jpg",
+  image: "./images/heel.jpg",
 },
 {
   id: 6,
@@ -59,7 +59,7 @@ const products = [
   category: "Beauty",
   price: 75,
   oldPrice: 95,
-  image: "/images/perfume.jpg",
+  image: "./images/perfume.jpg",
 },
 {
   id: 7,
@@ -67,7 +67,7 @@ const products = [
   category: "Accessories",
   price: 179,
   oldPrice: 220,
-  image: "/images/watch.jpg",
+  image: "./images/watch.jpg",
 },
 {
   id: 8,
@@ -75,7 +75,7 @@ const products = [
   category: "Women",
   price: 85,
   oldPrice: 110,
-  image: "/images/shirt.jpg",
+  image: "./images/shirt.jpg",
 },
 ];
 

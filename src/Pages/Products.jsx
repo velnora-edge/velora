@@ -15,7 +15,7 @@ const products = [
     price: 89,
     oldPrice: 119,
     rating: 4.9,
-    image: "/images/silk2.jpg",
+    image: "./images/silk2.jpg",
     isNew: true,
   },
   {
@@ -25,7 +25,7 @@ const products = [
     price: 115,
     oldPrice: 145,
     rating: 4.8,
-    image: "/images/shirt5.jpg",
+    image: "./images/shirt5.jpg",
     isNew: true,
   },
   {
@@ -35,7 +35,7 @@ const products = [
     price: 68,
     oldPrice: 89,
     rating: 4.7,
-    image: "/images/midi.jpg",
+    image: "./images/midi.jpg",
     isNew: false,
   },
   {
@@ -45,7 +45,7 @@ const products = [
     price: 85,
     oldPrice: 110,
     rating: 4.8,
-    image: "/images/shirt.jpg",
+    image: "./images/shirt.jpg",
     isNew: true,
   },
 
@@ -59,7 +59,7 @@ const products = [
     price: 59,
     oldPrice: 79,
     rating: 4.7,
-    image: "/images/shirt4.jpg",
+    image: "./images/shirt4.jpg",
     isNew: true,
   },
   {
@@ -69,7 +69,7 @@ const products = [
     price: 119,
     oldPrice: 149,
     rating: 4.8,
-    image: "/images/shirt3.jpg",
+    image: "./images/shirt3.jpg",
     isNew: true,
   },
   {
@@ -79,7 +79,7 @@ const products = [
     price: 64,
     oldPrice: 85,
     rating: 4.6,
-    image: "/images/shirt2.jpg",
+    image: "./images/shirt2.jpg",
     isNew: false,
   },
   {
@@ -89,7 +89,7 @@ const products = [
     price: 78,
     oldPrice: 99,
     rating: 4.7,
-    image: "/images/tro.jpg",
+    image: "./images/tro.jpg",
     isNew: false,
   },
 
@@ -103,7 +103,7 @@ const products = [
     price: 45,
     oldPrice: 60,
     rating: 4.9,
-    image: "/images/but.jpg",
+    image: "./images/but.jpg",
     isNew: true,
   },
   {
@@ -113,7 +113,7 @@ const products = [
     price: 95,
     oldPrice: 125,
     rating: 4.9,
-    image: "/images/pearl.jpg",
+    image: "./images/pearl.jpg",
     isNew: true,
   },
   {
@@ -123,7 +123,7 @@ const products = [
     price: 52,
     oldPrice: 69,
     rating: 4.8,
-    image: "/images/drop.jpg",
+    image: "./images/drop.jpg",
     isNew: false,
   },
   {
@@ -133,7 +133,7 @@ const products = [
     price: 72,
     oldPrice: 95,
     rating: 4.7,
-    image: "/images/chain.jpg",
+    image: "./images/chain.jpg",
     isNew: false,
   },
 
@@ -147,7 +147,7 @@ const products = [
     price: 75,
     oldPrice: 99,
     rating: 4.8,
-    image: "/images/bag3.jpg",
+    image: "./images/bag3.jpg",
     isNew: true,
   },
   {
@@ -157,7 +157,7 @@ const products = [
     price: 159,
     oldPrice: 199,
     rating: 4.8,
-    image: "/images/bag2.jpg",
+    image: "./images/bag2.jpg",
     isNew: true,
   },
   {
@@ -167,7 +167,7 @@ const products = [
     price: 129,
     oldPrice: 165,
     rating: 4.7,
-    image: "/images/toti.jpg",
+    image: "./images/toti.jpg",
     isNew: false,
   },
   {
@@ -177,7 +177,7 @@ const products = [
     price: 82,
     oldPrice: 105,
     rating: 4.6,
-    image: "/images/mini.jpg",
+    image: "./images/mini.jpg",
     isNew: false,
   },
 
@@ -191,7 +191,7 @@ const products = [
     price: 95,
     oldPrice: 125,
     rating: 4.8,
-    image: "/images/heel2.jpg",
+    image: "./images/heel2.jpg",
     isNew: true,
   },
   {
@@ -201,7 +201,7 @@ const products = [
     price: 88,
     oldPrice: 115,
     rating: 4.7,
-    image: "/images/shoe.jpg",
+    image: "./images/shoe.jpg",
   
     isNew: false,
   },
@@ -212,7 +212,7 @@ const products = [
     price: 74,
     oldPrice: 95,
     rating: 4.6,
-    image: "/images/sneaker.jpg",
+    image: "./images/sneaker.jpg",
     isNew: true,
   },
   {
@@ -222,7 +222,7 @@ const products = [
     price: 69,
     oldPrice: 89,
     rating: 4.7,
-    image: "/images/flats.jpg",
+    image: "./images/flats.jpg",
     isNew: false,
   },
 
@@ -236,7 +236,7 @@ const products = [
     price: 75,
     oldPrice: 95,
     rating: 4.9,
-    image: "/images/frag.jpg",
+    image: "./images/frag.jpg",
     isNew: true,
   },
   {
@@ -246,7 +246,7 @@ const products = [
     price: 68,
     oldPrice: 89,
     rating: 4.8,
-    image: "/images/rose.jpg",
+    image: "./images/rose.jpg",
     isNew: true,
   },
   {
@@ -256,7 +256,7 @@ const products = [
     price: 42,
     oldPrice: 55,
     rating: 4.6,
-    image: "/images/body.jpg",
+    image: "./images/body.jpg",
     isNew: false,
   },
   {
@@ -266,7 +266,7 @@ const products = [
     price: 32,
     oldPrice: 42,
     rating: 4.7,
-    image: "/images/cream.jpg",
+    image: "./images/cream.jpg",
     isNew: false,
   },
 ];
