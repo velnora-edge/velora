@@ -18,7 +18,7 @@ import Contact from "./Pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+<BrowserRouter basename="/velora">
       <div className="min-h-screen flex flex-col">
 
         <Navbar />
